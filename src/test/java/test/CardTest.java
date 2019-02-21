@@ -1,3 +1,4 @@
+package test;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -31,7 +32,7 @@ public final class CardTest extends JPanel {
 	 * @param card
 	 *            The card to display.
 	 */
-	public static void run(PCard card) {
+	public static void run(final PCard card) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				JFrame frame = new JFrame();
