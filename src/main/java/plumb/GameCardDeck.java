@@ -7,6 +7,7 @@
 package plumb;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class GameCardDeck implements PDeck {
@@ -17,12 +18,15 @@ public class GameCardDeck implements PDeck {
 
     @Override
     public void shuffle() {
-
+        Collections.shuffle(deck);
     }
+
     @Override
     public void addCard(PCard card) {
+
         deck.add(card);
     }
+
     @Override
     public PCard dealCard() {
         PCard cardToDeal = deck.get(-0);
