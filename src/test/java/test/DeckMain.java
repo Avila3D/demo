@@ -22,6 +22,7 @@ public class DeckMain {
         GameCard nineOfHearts = new GameCard("9 \u2665");
         GameCard tenOfHearts = new GameCard("10 \u2665");
         GameCard jackOfHearts = new GameCard("J \u2665");
+        GameCard knightOfHearts = new GameCard("Kn \u2665");
         GameCard queenOfHearts = new GameCard("Q \u2665");
         GameCard kingOfHearts = new GameCard("K \u2665");
         gameCardDeck.addCard(aceOfHearts);
@@ -35,6 +36,7 @@ public class DeckMain {
         gameCardDeck.addCard(nineOfHearts);
         gameCardDeck.addCard(tenOfHearts);
         gameCardDeck.addCard(jackOfHearts);
+        gameCardDeck.addCard(knightOfHearts);
         gameCardDeck.addCard(queenOfHearts);
         gameCardDeck.addCard(kingOfHearts);
 
@@ -50,6 +52,7 @@ public class DeckMain {
         GameCard nineOfClubs = new GameCard("9 \u2663");
         GameCard tenOfClubs = new GameCard("10 \u2663");
         GameCard jackOfClubs = new GameCard("J \u2663");
+        GameCard knightOfClubs = new GameCard("Kn \u2663");
         GameCard queenOfClubs = new GameCard("Q \u2663");
         GameCard kingOfClubs = new GameCard("K \u2663");
         gameCardDeck.addCard(aceOfClubs);
@@ -63,6 +66,7 @@ public class DeckMain {
         gameCardDeck.addCard(nineOfClubs);
         gameCardDeck.addCard(tenOfClubs);
         gameCardDeck.addCard(jackOfClubs);
+        gameCardDeck.addCard(knightOfClubs);
         gameCardDeck.addCard(queenOfClubs);
         gameCardDeck.addCard(kingOfClubs);
 
@@ -78,6 +82,7 @@ public class DeckMain {
         GameCard nineOfDiamonds = new GameCard("9 \u25C6");
         GameCard tenOfDiamonds = new GameCard("10 \u25C6");
         GameCard jackOfDiamonds = new GameCard("J \u25C6");
+        GameCard knightOfDiamonds = new GameCard("Kn \u25C6");
         GameCard queenOfDiamonds = new GameCard("Q \u25C6");
         GameCard kingOfDiamonds = new GameCard("K \u25C6");
         gameCardDeck.addCard(aceOfDiamonds);
@@ -91,6 +96,7 @@ public class DeckMain {
         gameCardDeck.addCard(nineOfDiamonds);
         gameCardDeck.addCard(tenOfDiamonds);
         gameCardDeck.addCard(jackOfDiamonds);
+        gameCardDeck.addCard(knightOfDiamonds);
         gameCardDeck.addCard(queenOfDiamonds);
         gameCardDeck.addCard(kingOfDiamonds);
 
@@ -107,6 +113,7 @@ public class DeckMain {
         GameCard nineOfSpades = new GameCard("9 \u2660");
         GameCard tenOfSpades = new GameCard("10 \u2660");
         GameCard jackOfSpades = new GameCard("J \u2660");
+        GameCard knightOfSpades = new GameCard("Kn \u2660");
         GameCard queenOfSpades = new GameCard("Q \u2660");
         GameCard kingOfSpades = new GameCard("K \u2660");
         gameCardDeck.addCard(aceOfSpades);
@@ -120,6 +127,7 @@ public class DeckMain {
         gameCardDeck.addCard(nineOfSpades);
         gameCardDeck.addCard(tenOfSpades);
         gameCardDeck.addCard(jackOfSpades);
+        gameCardDeck.addCard(knightOfSpades);
         gameCardDeck.addCard(queenOfSpades);
         gameCardDeck.addCard(kingOfSpades);
 

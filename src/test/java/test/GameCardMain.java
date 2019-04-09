@@ -19,6 +19,7 @@ public class GameCardMain {
         GameCard nineOfHearts = new GameCard("9 \u2665");
         GameCard tenOfHearts = new GameCard("10 \u2665");
         GameCard jackOfHearts = new GameCard("J \u2665");
+        GameCard knightOfHearts = new GameCard("Kn \u2665");
         GameCard queenOfHearts = new GameCard("Q \u2665");
         GameCard kingOfHearts = new GameCard("K \u2665");
         CardTest.run(aceOfHearts);
@@ -32,6 +33,7 @@ public class GameCardMain {
         CardTest.run(nineOfHearts);
         CardTest.run(tenOfHearts);
         CardTest.run(jackOfHearts);
+        CardTest.run(knightOfHearts);
         CardTest.run(queenOfHearts);
         CardTest.run(kingOfHearts);
 
@@ -47,6 +49,7 @@ public class GameCardMain {
         GameCard nineOfClubs = new GameCard("9 \u2663");
         GameCard tenOfClubs = new GameCard("10 \u2663");
         GameCard jackOfClubs = new GameCard("J \u2663");
+        GameCard knightOfClubs = new GameCard("Kn \u2663");
         GameCard queenOfClubs = new GameCard("Q \u2663");
         GameCard kingOfClubs = new GameCard("K \u2663");
         CardTest.run(aceOfClubs);
@@ -60,6 +63,7 @@ public class GameCardMain {
         CardTest.run(nineOfClubs);
         CardTest.run(tenOfClubs);
         CardTest.run(jackOfClubs);
+        CardTest.run(knightOfClubs);
         CardTest.run(queenOfClubs);
         CardTest.run(kingOfClubs);
 
@@ -75,6 +79,7 @@ public class GameCardMain {
         GameCard nineOfDiamonds = new GameCard("9 \u25C6");
         GameCard tenOfDiamonds = new GameCard("10 \u25C6");
         GameCard jackOfDiamonds = new GameCard("J \u25C6");
+        GameCard knightOfDiamonds = new GameCard("Kn \u25C6");
         GameCard queenOfDiamonds = new GameCard("Q \u25C6");
         GameCard kingOfDiamonds = new GameCard("K \u25C6");
         CardTest.run(aceOfDiamonds);
@@ -88,6 +93,7 @@ public class GameCardMain {
         CardTest.run(nineOfDiamonds);
         CardTest.run(tenOfDiamonds);
         CardTest.run(jackOfDiamonds);
+        CardTest.run(knightOfDiamonds);
         CardTest.run(queenOfDiamonds);
         CardTest.run(kingOfDiamonds);
 
@@ -104,6 +110,7 @@ public class GameCardMain {
         GameCard nineOfSpades = new GameCard("9 \u2660");
         GameCard tenOfSpades = new GameCard("10 \u2660");
         GameCard jackOfSpades = new GameCard("J \u2660");
+        GameCard knightOfSpades = new GameCard("Kn \u2660");
         GameCard queenOfSpades = new GameCard("Q \u2660");
         GameCard kingOfSpades = new GameCard("K \u2660");
         CardTest.run(aceOfSpades);
@@ -117,6 +124,7 @@ public class GameCardMain {
         CardTest.run(nineOfSpades);
         CardTest.run(tenOfSpades);
         CardTest.run(jackOfSpades);
+        CardTest.run(knightOfSpades);
         CardTest.run(queenOfSpades);
         CardTest.run(kingOfSpades);
 

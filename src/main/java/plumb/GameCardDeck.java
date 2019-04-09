@@ -14,6 +14,7 @@ public class GameCardDeck implements PDeck {
 
     // create list to hold cards
     List<PCard> deck = new ArrayList<PCard>();
+    PHandImpl hand = new PHandImpl();
 
 
     @Override
@@ -23,20 +24,27 @@ public class GameCardDeck implements PDeck {
 
     @Override
     public void addCard(PCard card) {
-
         deck.add(card);
     }
 
     @Override
     public PCard dealCard() {
-        PCard cardToDeal = deck.get(-0);
-        deck.remove(-0);
+        PCard cardToDeal = deck.get((deck.size() - 1));
+        deck.remove((deck.size() - 1));
         return cardToDeal;
+//(deck.size() - 1)
     }
+
     @Override
     public PCard dealHiddenCard() {
-        return null;
+
+        PCard hiddenCardToDeal = deck.get((deck.size() - 1));
+        deck.remove((deck.size() - 1));
+        return hiddenCardToDeal;
+
+
     }
+
     @Override
     public int cardCount() {
         return deck.size();
