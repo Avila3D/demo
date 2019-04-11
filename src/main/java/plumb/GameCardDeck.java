@@ -40,6 +40,7 @@ public class GameCardDeck implements PDeck {
 
         PCard hiddenCardToDeal = deck.get((deck.size() - 1));
         deck.remove((deck.size() - 1));
+        hiddenCardToDeal.hideCard();
         return hiddenCardToDeal;
 
 

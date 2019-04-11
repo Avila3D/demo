@@ -15,20 +15,22 @@ public class GameCard extends PCard {
         this.rankAndSuit = rankAndSuit;
     }
 
+    boolean cardVisiblity = false;
     @Override
     public void showCard() {
-        super.showCard();
+
+        this.cardVisiblity = false;
     }
 
     @Override
     public void hideCard() {
 
-        super.hideCard();
+        this.cardVisiblity = true;
     }
 
     @Override
     public boolean isHidden() {
-        return false;
+        return cardVisiblity;
     }
 
     @Override
